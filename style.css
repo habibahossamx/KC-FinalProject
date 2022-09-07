@@ -1,0 +1,115 @@
+*{
+margin:0 ;
+padding: 0;
+scroll-behavior: smooth;
+}
+
+header{
+background-color: burlywood;
+width: 100%;
+position: fixed;
+z-index: 999;
+justify-content: space-between; 
+
+  }     
+
+
+ header:hover{
+    box-shadow:1px 5px 15px burlywood;
+ }
+
+section{
+    padding: 150px 300px;
+}
+
+.main{
+width: 100%;
+min-height:100vh ;
+display: flex;
+background-color: rgb(116, 53, 26);
+}
+
+
+#footer{
+background-color: burlywood;
+padding: 2em;
+width: 100% ;
+
+}
+ 
+.aya{
+    height: 600px;
+    margin-top: 80px;
+}
+
+.right{
+    margin-left: 1400px;
+    display: flex;
+}
+
+.left a{
+
+    font-size:30px;
+    text-decoration: none;
+    margin: 6px;
+}
+
+
+
+.box {
+    background-color: rgb(58, 58, 58);
+    width: 260px;
+    height: 170px;
+    margin: 5px;
+    color: rgb(233, 233, 233);
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+.box:hover {
+    box-shadow: rgba(28, 176, 255, 0.35) 0px 5px 15px;
+    opacity:1;
+    width: 270px;
+    height: 170px;
+}
+
+
+
+.container { 
+    margin: 5px;
+    display: flex; 
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+#map{
+background-image:url(m2.jpeg);
+background-size: cover;
+}
+
+ .box a{
+text-decoration: none;
+font-size:60px;
+color: rgb(255, 255, 255);
+
+}
+
+a:hover{
+color: rgb(23, 127, 183);
+}
+
+
+#africapic{
+    background-image:url(africapic.jpg);
+    background-size: cover;
+    }
